@@ -73,6 +73,23 @@ INSERT INTO directores (nombre, edad, pais) VALUES
 ('The Duffer Brothers', 39, 'USA'),
 ('Peter Morgan', 57, 'UK');
 
+INSERT INTO directores (nombre, edad, pais) VALUES
+('Vince Gilligan', 57, 'Estados Unidos'),
+('Shawn Levy', 55, 'Canadá'),
+('Peter Morgan', 60, 'Reino Unido'),
+('David Benioff', 53, 'Estados Unidos'),
+('Jon Favreau', 57, 'Estados Unidos'),
+('Lauren Schmidt Hissrich', 45, 'Estados Unidos'),
+('David Crane', 66, 'Estados Unidos'),
+('Greg Daniels', 60, 'Estados Unidos'),
+('Steven Moffat', 62, 'Reino Unido'),
+('Charlie Brooker', 53, 'Reino Unido'),
+('Jonathan Nolan', 48, 'Reino Unido'),
+('Eric Kripke', 50, 'Estados Unidos'),
+('Steve Blackman', 52, 'Canadá'),
+('Álex Pina', 56, 'España'),
+('Baran bo Odar', 45, 'Alemania');
+
 -- tabla actores
 INSERT INTO actores (nombre, edad, pais) VALUES
 ('Leonardo DiCaprio', 46, 'USA'),
@@ -90,6 +107,38 @@ INSERT INTO actores (nombre, edad, pais) VALUES
 ('Kate Winslet', 45, 'UK'),
 ('Sam Worthington', 44, 'Australia'),
 ('Robert Downey Jr.', 56, 'USA');
+
+INSERT INTO actores (nombre, edad, pais) VALUES
+('Bryan Cranston', 67, 'Estados Unidos'),
+('Aaron Paul', 44, 'Estados Unidos'),
+('Winona Ryder', 52, 'Estados Unidos'),
+('David Harbour', 49, 'Estados Unidos'),
+('Claire Foy', 39, 'Reino Unido'),
+('Matt Smith', 41, 'Reino Unido'),
+('Emilia Clarke', 37, 'Reino Unido'),
+('Kit Harington', 37, 'Reino Unido'),
+('Pedro Pascal', 49, 'Chile'),
+('Gina Carano', 42, 'Estados Unidos'),
+('Henry Cavill', 41, 'Reino Unido'),
+('Anya Chalotra', 27, 'Reino Unido'),
+('Jennifer Aniston', 55, 'Estados Unidos'),
+('Courteney Cox', 60, 'Estados Unidos'),
+('Steve Carell', 62, 'Estados Unidos'),
+('Rainn Wilson', 58, 'Estados Unidos'),
+('Benedict Cumberbatch', 48, 'Reino Unido'),
+('Martin Freeman', 52, 'Reino Unido'),
+('Daniel Lapaine', 53, 'Australia'),
+('Hannah John-Kamen', 34, 'Reino Unido'),
+('Evan Rachel Wood', 36, 'Estados Unidos'),
+('Thandiwe Newton', 51, 'Reino Unido'),
+('Karl Urban', 52, 'Nueva Zelanda'),
+('Jack Quaid', 32, 'Estados Unidos'),
+('Elliot Page', 37, 'Canadá'),
+('Tom Hopper', 39, 'Reino Unido'),
+('Úrsula Corberó', 34, 'España'),
+('Álvaro Morte', 49, 'España'),
+('Louis Hofmann', 27, 'Alemania'),
+('Lisa Vicari', 27, 'Alemania');
 
 -- tabla playlists
 INSERT INTO playlists (categoria) VALUES

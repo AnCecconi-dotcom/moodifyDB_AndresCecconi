@@ -177,6 +177,7 @@ BEGIN
 END //
 DELIMITER ;
 
+
 -- LLAMADA A LOS STORED PROCEDURES
 CALL InsertarActoresPeliculas();
 CALL InsertarDirectoresPeliculas();
@@ -234,8 +235,6 @@ SELECT * FROM vista_series_por_año;
 
 
 
--- FUNCIONES
--- calcular edad promedio de ususarios
 -- FUNCIONES
 -- calcular edad promedio de ususarios
 DELIMITER //
